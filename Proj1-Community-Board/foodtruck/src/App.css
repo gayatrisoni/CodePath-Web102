@@ -1,0 +1,38 @@
+#root {
+  max-width: 100%;
+  margin: 0 0;
+  padding: 2rem;
+  text-align: center;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  color: black;
+  background-color: lightblue;
+  object-fit: cover ;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  color: antiquewhite;
+  text-shadow: 2px 2px 3px black;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-img {
+  width: 50%;
+  height: 200px;
+  
+}
+
+.card-list{
+  display: grid;
+  grid-template-columns: repeat(10, auto);
+  gap: 2% 1%;
+}
+

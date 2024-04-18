@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.samosa {
+  height: 15rem;
+  padding: 1.5em;
+  margin: 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+.samosa:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 10px 3px blue;
+}
+
+.samosa:active {
+  transform: scale(0.95);
+}
+
+body {
+  background-color: black;
+}
+
+.header {
+  color: white;
+  margin-top: 20%;
+  text-align: center;
+}
+
+.container {
+  margin: 50px;
+  display: flex;
+}
+
+.upgrade {
+  border: 1PX solid white;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  margin-right: 25px;
+  width: 200px;
+  color: white;
+  text-align: center;
+  line-height: 0.5;
+  
+}
+
+.btn {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  padding-right: 1em;
+  padding-left: 1em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  color: rgba(255, 255, 255, 0.87);
+  margin-top: 10px;
+  cursor: pointer;
+
+}
